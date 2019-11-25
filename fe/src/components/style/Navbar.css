@@ -1,0 +1,59 @@
+.btn-c {
+    border: none;
+    background-color: transparent;
+}
+
+.btn-c:hover {
+    border: none;
+    background-color: transparent;
+}
+
+.b-l {
+    border: 1px solid #b46646;
+    border-radius: 2px;
+    color: #b46646;
+    opacity: 0.6;
+    transition: 0.3s;
+    padding: 5px 10px;
+}
+
+.b-l:hover {
+    opacity: 1;
+}
+
+.b-r {
+    color: white;
+    background-color: #b46646;
+    border-radius: 2px;
+    padding: 6px 10px;
+    transition: 0.3s;
+}
+
+.b-r:hover {
+    background-color: #c7714f;
+}
+
+.b {
+   display: none; 
+}
+
+.b span {
+    width: 20px;
+    display: block;
+    height: 1px;
+    border-bottom: 3px solid black;
+    margin-bottom: 3px;
+}
+
+.b span:last-child {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    .b {
+        display: block;
+    }
+    .r {
+        display: none;
+    }
+}

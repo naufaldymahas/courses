@@ -1,0 +1,9 @@
+.img-c {
+    position: relative;
+    height: 126px;
+    overflow: hidden;
+}
+
+.img-i {
+    height: 100%;
+}
